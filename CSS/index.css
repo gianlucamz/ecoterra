@@ -10,8 +10,8 @@
   background-color: #86c97d;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  height: auto 150px;
-  width: 1920px;
+  height: 120px;
+  width: 100%;
   padding: 1px;
   margin-bottom: 0px;
   display: flex;
@@ -20,8 +20,14 @@
 
 .img {
   display: flex;
+  height: auto;
   margin-left: auto 55px;
   margin-top: auto 3px;
+}
+
+/* Banner */
+.bg img{
+  width: 100%;
 }
 
 .search-box input {
@@ -123,7 +129,7 @@
 .categorias {
   background-color: white;
   height: 50px;
-  width: 1920px;
+  width: 100%;
   display: flex;
 }
 
@@ -294,7 +300,7 @@
   margin-top: -5px;
   height: 75px;
   display: flex;
-  width: 1920px;
+  width: 100%;
 }
 
 .text1 {
@@ -547,7 +553,7 @@
   background-color: #588157;
   font-family: "Montserrat";
   height: auto 450px;
-  width: auto 1920px;
+  width: auto 100%;
   padding: 1px;
   margin-bottom: 0px;
   margin-top: 100px;
