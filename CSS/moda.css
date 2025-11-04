@@ -316,8 +316,8 @@
 }
 
 .camisaover img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin-top: 20px;
     display: flexbox;
     justify-content: center;
@@ -348,9 +348,9 @@
 }
 
 .vestido img {
-    height: 350px;
-    width: 250px;
-    margin-left: 10px;
+    height: 250px;
+    width: 180px;
+    margin-left: 20px;
     margin-top: 20px;
     display: flexbox;
     justify-content: center;
@@ -363,7 +363,7 @@
     text-align: justify;
     font-weight: 0;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: 20px;
     
 }
@@ -378,8 +378,8 @@
 }
 
 .moletoncapuz img {
-    height: 300px;
-    width: 250px;
+    height: 250px;
+    width: 200px;
     margin-left: 20px;
     margin-top: 20px;
     display: flexbox;
@@ -408,8 +408,8 @@
 }
 
 .ecamisa img {
-    height: 300px;
-    width: 250px;
+    height: 250px;
+    width: 200px;
     margin-left: 20px;
     margin-top: 20px;
     display: flexbox;
