@@ -10,8 +10,8 @@
   background-color: #86c97d;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  height: 120px;
-  width: 100%;
+  height: auto 150px;
+  width: auto 1920px;
   padding: 1px;
   margin-bottom: 0px;
   display: flex;
