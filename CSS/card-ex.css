@@ -421,7 +421,7 @@ body {
     margin-top: 10px;
 }
 
-.formaspagamento {
+.formaspagamento a {
     color: rgb(81, 211, 255);
     font-size: 20px;
     margin-top: 5px;
@@ -511,6 +511,23 @@ body {
   border: none;
   border-top: 2px solid #4e4e4e;
   margin-left: 150px;
+}
+
+.desc {
+  margin-top: 80px;
+  margin-left: 200px;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+.card {
+  z-index: 1;
+}
+
+.categorias {
+  position: relative;
+  z-index: 2;
+  background-color: white;
 }
 
 
