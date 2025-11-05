@@ -400,6 +400,11 @@ body {
   margin-left: 150px;
 }
 
+.container-produto {
+  display: flex;
+  margin-bottom: 0px;
+}
+
 .caracteristicas {
     color: black;
     font-family: "Montserrat";
@@ -437,18 +442,58 @@ body {
     display: flex;
 }
 
-.tipos select, option {
-    width: 70px;
+.tipos select {
+    width: 80px;
     font-family: "Montserrat";
-    background-color: #86C97D;
     border: 2px solid #54a04a;
     border-radius: 5px;
     margin-left: 5px;
+    padding:3px;
+    padding-left: 5px;
+    background-color: white;
 }
 
 .tipos option {
-    background-color: #86C97D !important;
     color: #000 !important;
     font-family: "Montserrat", sans-serif !important;
 }
 
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.botoes button {
+  width: 350px;
+  height: 80px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.comprar {
+  background-color: #81c784;
+  color: black;
+  font-weight: 500;
+  font-family: "Montserrat"
+}
+
+.carrinhobtn {
+  background-color: #a5d6a7;
+  color: black;
+  font-weight: 500;
+  font-family: "Montserrat"
+}
+
+.carrinhobtn ion-icon {
+  height: 50px;
+  width: 35px;
+  margin-right: 8px;
+  vertical-align: middle;
+  margin-bottom: 6px;
+}
