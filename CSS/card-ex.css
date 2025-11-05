@@ -434,11 +434,14 @@ body {
     font-size: 20px;
     font-weight: 600;
     margin-top: 50px;
+    display: flex;
 }
 
 .tipos select {
-    width: 60px;
+    width: 70px;
     font-family: "Montserrat";
     background-color: #86C97D;
-    border: none;
+    border: 2px solid #54a04a;
+    border-radius: 5px;
+    margin-left: 5px;
 }
