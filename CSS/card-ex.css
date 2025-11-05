@@ -437,7 +437,7 @@ body {
     display: flex;
 }
 
-.tipos select {
+.tipos select, option {
     width: 70px;
     font-family: "Montserrat";
     background-color: #86C97D;
@@ -445,3 +445,10 @@ body {
     border-radius: 5px;
     margin-left: 5px;
 }
+
+.tipos option {
+    background-color: #86C97D !important;
+    color: #000 !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
