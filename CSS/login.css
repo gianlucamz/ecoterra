@@ -22,8 +22,8 @@
 
 .img {
   display: flex;
-  margin-left: auto 55px;
-  margin-top: auto 3px;
+  margin-left: 110px;
+  margin-top: 9px;
 }
 
 .search-box input {
@@ -38,7 +38,7 @@
 
 .search-box {
   margin-top: 28px;
-  margin-left: 40px;
+  margin-left: 37px;
   position: relative;
 }
 
@@ -61,20 +61,20 @@
   list-style: none;
   display: flex;
   gap: 40px;
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 .navbar_Links a {
   color: black;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin-left: 40px;
 }
 
 .login a {
-  margin-left: 90px;
+  margin-left: 80px;
   color: #3a5a40;
   border-radius: 50px;
   height: 40px;
@@ -104,8 +104,8 @@
 
 .carrinho ion-icon {
   color: #3a5a40;
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   margin-left: -50px;
 }
 
@@ -116,10 +116,10 @@
 }
 
 .notificações ion-icon {
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   font-weight: 600px;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 .categorias {
