@@ -423,6 +423,7 @@ body {
     width: 710px;
     margin-top: 120px;
     border: solid 0.8px #000;
+    height: 360px;
 }
 
 .cadastrar h2 {
@@ -456,24 +457,81 @@ body {
     box-shadow: 0 0 8px rgba(93, 163, 93, 0.4);
 }
 
-#ou {
+
+.entrar {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  width: 710px;
+  margin-top: 120px;
+  border: solid 0.8px #000;
+}
+
+.entrar h2 {
+  margin-bottom: 15px;
+  color: #000;
+  font-family: "Montserrat";
+  font-weight: 520;
+}
+
+.entrar input {
+  width: 95%;
+  padding: 10px;
+  margin: 6px auto 25px auto;
+  border: 0.7px solid #0000006c;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  font-family: montserrat;
+  display: block;
+}
+
+.entrar p {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.entrar input:focus {
+  outline: none;
+  border-color: #5da35d;
+  box-shadow: 0 0 8px rgba(93, 163, 93, 0.4);
+}
+
+.ou {
     font-weight: 400;
-    margin-top: -10px;
     text-align: center;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.ou::before,
+.ou::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #aaa;
+  margin: 0 10px;
 }
 
 .social-login {
     display: flex;
-    justify-content: space-around;
-    margin: 10px 0;
+    justify-content: center;
+    gap: 34px;
 }
 
 .social-login button {
-    padding: 13px 90px;
+  display: flex;
+  align-items: center;
+    padding: 9px 70px;
     border: 0.7px solid #0000006c;
     cursor: pointer;
     font-family: poppins;
     font-size: 15px;
+    font-weight: 300;
     margin-bottom: 48px
 }
 
@@ -481,8 +539,21 @@ body {
     margin-left: 20px;
 }
 
+.facebook img{
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  
+}
+
 .google {
     margin-right: 20px;
+}
+
+.google img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
 }
 
 .btn-login {
