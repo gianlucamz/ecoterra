@@ -395,7 +395,7 @@ body {
   flex-direction: column;
 }
 
-.card img {
+.container-produto img {
   height: 700px;
   width: 550px;
   margin-top: 50px;
@@ -530,5 +530,40 @@ body {
   background-color: white;
 }
 
+.avaliacao {
+  margin-left: 200px;
+  margin-top: 80px;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+.nota {
+  font-weight: normal;
+}
+
+.qnt-avaliacao {
+  color: #00000083;
+  margin-bottom: 20px;
+}
+
+.avaliacao1 img {
+  height: 50px;
+  width: 50px;
+}
+
+.avaliacao1 {
+  display: flex;
+}
+
+.nmuser {
+  margin-left: 10px;
+  font-weight: 500;
+  height: fit-content;
+  white-space: nowrap;
+}
 
 
+
+.txt {
+  margin-top: 10px;
+}
