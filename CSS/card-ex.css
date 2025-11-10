@@ -546,24 +546,53 @@ body {
   margin-bottom: 20px;
 }
 
-.avaliacao1 img {
-  height: 50px;
-  width: 50px;
+.avaliacoes {
+  font-family: Arial, sans-serif;
+  background-color: white;
 }
 
 .avaliacao1 {
   display: flex;
+  align-items: flex-start;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info {
+  margin-bottom: 5px;
 }
 
 .nmuser {
-  margin-left: 10px;
-  font-weight: 500;
-  height: fit-content;
-  white-space: nowrap;
+  font-weight: bold;
+  margin: 0;
 }
 
+.stars {
+  color: #28c76f;
+  font-size: 16px;
+}
 
+.avaliacao-texto {
+  margin-top: 5px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #222;
+}
 
-.txt {
-  margin-top: 10px;
+.btn-util {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-util:hover {
+  background-color: #e6e6e6;
 }
