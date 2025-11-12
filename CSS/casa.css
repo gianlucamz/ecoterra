@@ -18,7 +18,7 @@
 
 .img {
   display: flex;
-  margin-left: 80px;
+  margin-left: 72px;
   margin-top: 9px;
 }
 
@@ -117,7 +117,7 @@
   width: 30px;
   font-weight: 600px;
   margin-left: 60px;
-  margin-right: 80px;
+  margin-right: 72px;
 }
 
 .categorias {
@@ -404,19 +404,19 @@ body {
 }
 
 .sabaococo:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .lavaroupas:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .bucha:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .limpavidros:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .rdp {

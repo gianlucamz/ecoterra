@@ -18,7 +18,7 @@
 
 .img {
   display: flex;
-  margin-left: 80px;
+  margin-left: 72px;
   margin-top: 9px;
 }
 
@@ -117,7 +117,7 @@
   width: 30px;
   font-weight: 600px;
   margin-left: 60px;
-  margin-right: 80px;
+  margin-right: 72px;
 }
 
 .categorias {
@@ -331,7 +331,7 @@ body {
 }
 
 .camisaover:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .preco-original {
@@ -375,7 +375,7 @@ body {
 }
 
 .vestido:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .moletoncapuz img {
@@ -389,7 +389,7 @@ body {
 }
 
 .moletoncapuz:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .moletoncapuz {
@@ -435,7 +435,7 @@ body {
 }
 
 .ecamisa:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 
