@@ -397,7 +397,7 @@ body {
   flex-direction: column;
 }
 
-.card img {
+.container-produto img {
   height: 700px;
   width: 550px;
   margin-top: 50px;
@@ -532,5 +532,70 @@ body {
   background-color: white;
 }
 
+.avaliacao {
+  margin-left: 200px;
+  margin-top: 80px;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
 
+.nota {
+  font-weight: normal;
+}
 
+.qnt-avaliacao {
+  color: #00000083;
+  margin-bottom: 20px;
+}
+
+.avaliacoes {
+  font-family: "Montserrat";
+  background-color: white;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info {
+  margin-bottom: 5px;
+}
+
+.nmuser {
+  font-weight: bold;
+}
+
+.stars {
+  color: #28c76f;
+  font-size: 16px;
+}
+
+.avaliacao-texto {
+  font-size: 15px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.btn-util {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-util:hover {
+  background-color: #e6e6e6;
+}
+
+.avaliacao2 {
+  margin-top: 30px;
+}
+
+.avaliacao3 {
+  margin-top: 30px;
+}
