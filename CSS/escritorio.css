@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 * {
   margin: 0;
@@ -16,12 +17,13 @@
   margin-bottom: 0px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .img {
   display: flex;
-  margin-left: auto 55px;
-  margin-top: auto 3px;
+  margin-left: 110px;
+  margin-top: 9px;
 }
 
 .search-box input {
@@ -36,7 +38,7 @@
 
 .search-box {
   margin-top: 28px;
-  margin-left: 40px;
+  margin-left: 37px;
   position: relative;
 }
 
@@ -59,20 +61,20 @@
   list-style: none;
   display: flex;
   gap: 40px;
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 .navbar_Links a {
   color: black;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin-left: 40px;
 }
 
 .login a {
-  margin-left: 90px;
+  margin-left: 80px;
   color: #3a5a40;
   border-radius: 50px;
   height: 40px;
@@ -102,8 +104,8 @@
 
 .carrinho ion-icon {
   color: #3a5a40;
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   margin-left: -50px;
 }
 
@@ -114,25 +116,26 @@
 }
 
 .notificações ion-icon {
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   font-weight: 600px;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 .categorias {
   background-color: white;
   height: 50px;
-  width: 1920px;
+  width: 100%;
   display: flex;
   box-shadow: 0px 1px 3px 1px black;
+  justify-content: center;
 }
 
 .higiene a {
   height: 40px;
   width: 40px;
   padding: 3px;
-  margin-left: 200px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
   font-weight: 500;
@@ -440,11 +443,11 @@ body {
   background-color: #588157;
   font-family: "Montserrat";
   height: auto 450px;
-  width: auto 1920px;
+  width: 100%;
   padding: 1px;
   margin-bottom: 0px;
-  margin-top: 100px;
   display: flex;
+  justify-content: center;
 }
 
 .rdp img {
