@@ -547,13 +547,8 @@ body {
 }
 
 .avaliacoes {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat";
   background-color: white;
-}
-
-.avaliacao1 {
-  display: flex;
-  align-items: flex-start;
 }
 
 .avatar {
@@ -569,7 +564,6 @@ body {
 
 .nmuser {
   font-weight: bold;
-  margin: 0;
 }
 
 .stars {
@@ -578,10 +572,9 @@ body {
 }
 
 .avaliacao-texto {
-  margin-top: 5px;
   font-size: 15px;
-  line-height: 1.5;
   color: #222;
+  margin-bottom: 10px;
 }
 
 .btn-util {
@@ -595,4 +588,12 @@ body {
 
 .btn-util:hover {
   background-color: #e6e6e6;
+}
+
+.avaliacao2 {
+  margin-top: 30px;
+}
+
+.avaliacao3 {
+  margin-top: 30px;
 }
