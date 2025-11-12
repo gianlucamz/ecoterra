@@ -297,7 +297,7 @@ body {
 .rdp {
   background-color: #588157;
   font-family: "Montserrat";
-  height: auto 450px;
+  height: 450px;
   width: 100%;
   padding: 1px;
   margin-bottom: 0px;
@@ -336,6 +336,7 @@ body {
   gap: 5px;
   margin-left: 5px;
   margin-top: -3px;
+  margin-bottom: 30px;
 }
 
 .institucional {

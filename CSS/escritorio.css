@@ -303,6 +303,7 @@ body {
   margin-top: 20px;
   margin-left: 100px;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .portacanetas {
@@ -525,4 +526,9 @@ body {
   height: 200px;
   width: 320px;
   margin-top: 0px;
+}
+
+.preço {
+  font-size: 20px;
+  margin-top: 10px;
 }
