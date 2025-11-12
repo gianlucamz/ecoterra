@@ -9,20 +9,16 @@
 
 .header {
   background-color: #86c97d;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  height: auto 150px;
-  width: 100%;
-  padding: 1px;
-  margin-bottom: 0px;
+  color: #fff;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  padding: 12px 40px;
 }
 
 .img {
   display: flex;
-  margin-left: 110px;
+  margin-left: 72px;
   margin-top: 9px;
 }
 
@@ -34,6 +30,7 @@
   width: 430px;
   font-size: 15px;
   padding: 15px;
+  outline: none;
 }
 
 .search-box {
@@ -120,6 +117,7 @@
   width: 30px;
   font-weight: 600px;
   margin-left: 60px;
+  margin-right: 72px;
 }
 
 .categorias {
@@ -132,20 +130,20 @@
 }
 
 .higiene a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
   margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -155,19 +153,20 @@
 }
 
 .casa a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -183,19 +182,20 @@
 }
 
 .cozinha a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 250px;
 }
@@ -206,19 +206,20 @@
 }
 
 .moda a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -229,19 +230,20 @@
 }
 
 .escritorio a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -252,22 +254,24 @@
 }
 
 .pets a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 200px;
 }
+
 body {
   font-family: Arial, sans-serif;
   background-color: #fff;
@@ -276,28 +280,18 @@ body {
   color: #333;
 }
 
-.pets:hover {
-  transform: scale(1.05);
+.categorias a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 550;
+  position: relative;
+  transition: color 0.4s ease;
 }
 
-.moda:hover {
-  transform: scale(1.05);
-}
-
-.escritorio:hover {
-  transform: scale(1.05);
-}
-
-.casa:hover {
-  transform: scale(1.05);
-}
-
-.cozinha:hover {
-  transform: scale(1.05);
-}
-
-.higiene:hover {
-  transform: scale(1.05);
+.categorias a:hover{
+  color: #86c97d;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .rdp {
