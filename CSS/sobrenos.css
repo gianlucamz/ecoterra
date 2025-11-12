@@ -294,263 +294,6 @@ body {
   text-underline-offset: 4px;
 }
 
-.bar {
-  background-color: #acff4d;
-  margin-top: -5px;
-  height: 75px;
-  display: flex;
-  width: 100%;
-}
-
-.text1 {
-  margin-left: 410px;
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  font-size: 20px;
-  padding: 12px;
-  font-weight: 500;
-}
-
-.icon1 img {
-  height: 50px;
-  width: 50px;
-  margin-top: 10px;
-  margin-left: -200px;
-}
-
-.fol1 img {
-  height: 50px;
-  width: 50px;
-  margin-top: 11px;
-  margin-left: 125px;
-}
-
-.icon2 img {
-  height: 50px;
-  width: 50px;
-  margin-top: 15px;
-  margin-left: 125px;
-}
-
-.text2 {
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  font-size: 20px;
-  padding: 12px;
-  margin-left: 5px;
-  font-weight: 500;
-}
-
-.fol2 img {
-  height: 50px;
-  width: 50px;
-  margin-top: 11px;
-  margin-left: 125px;
-}
-
-.icon3 img {
-  height: 50px;
-  width: 50px;
-  margin-top: 11px;
-  margin-left: 125px;
-}
-
-.text3 {
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  font-size: 20px;
-  padding: 12px;
-  margin-left: 5px;
-  font-weight: 500;
-}
-
-.destaques {
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  font-size: 20px;
-  padding: 12px;
-  font-weight: 0;
-  margin-top: 125px;
-  margin-left: 100px;
-  display: flex;
-}
-
-.camisa img {
-  height: 300px;
-  width: 250px;
-  margin-left: 20px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-}
-
-.camisa {
-  display: flexbox;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  display: flexbox;
-}
-
-.kit-cbl img {
-  height: 250px;
-  width: 250px;
-  margin-left: 20px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.kit-cbl {
-  display: flexbox;
-  white-space: nowrap;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  margin-left: 150px;
-  margin-top: 20px;
-}
-
-.coleira img {
-  height: 250px;
-  width: 250px;
-  margin-left: 20px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.coleira {
-  display: flexbox;
-  white-space: nowrap;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  margin-left: 150px;
-  margin-top: 20px;
-}
-
-.coleira:hover {
-  transform: scale(1.02);
-}
-
-.copo-termico:hover {
-  transform: scale(1.02);
-}
-
-.kit-cbl:hover {
-  transform: scale(1.02);
-}
-
-.desodorante:hover {
-  transform: scale(1.02);
-}
-
-.agenda:hover {
-  transform: scale(1.02);
-}
-
-.camisa:hover {
-  transform: scale(1.02);
-}
-
-.copo-termico img {
-  height: 250px;
-  width: 250px;
-  margin-left: 20px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.copo-termico {
-  display: flexbox;
-  white-space: nowrap;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  margin-left: 150px;
-  margin-top: 20px;
-}
-
-.ofertas {
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  font-size: 20px;
-  padding: 12px;
-  font-weight: 0;
-  margin-top: 25px;
-  margin-left: 100px;
-  display: flex;
-}
-
-.desodorante {
-  display: flexbox;
-  white-space: nowrap;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  margin-top: 20px;
-  margin-left: 30px;
-}
-
-.desodorante img {
-  height: 250px;
-  width: 250px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-  margin-bottom: 30px;
-  margin-left: 30px;
-}
-
-.preco-original {
-  text-decoration: line-through;
-  color: #aaa;
-  font-size: 14px;
-  display: inline-block;
-}
-
-.desconto {
-  font-size: 12px;
-  color: #777;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.destaques a {
-  text-decoration: none;
-  color: black;
-}
-
-.ofertas a {
-  text-decoration: none;
-  color: black;
-}
-
-.agenda {
-  display: flexbox;
-  white-space: nowrap;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  margin-top: 20px;
-  margin-left: 150px;
-}
-
-.agenda img {
-  height: 250px;
-  width: 250px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-  margin-bottom: 30px;
-  margin-left: 30px;
-}
-
 .rdp {
   background-color: #588157;
   font-family: "Montserrat";
@@ -643,4 +386,68 @@ body {
   height: 200px;
   width: 320px;
   margin-top: 0px;
+}
+
+.background2 {
+    width: 100%;
+    height: 715px;
+    background-image: 
+        linear-gradient(
+            rgba(255, 255, 255, 0) 0%,
+            rgba(222, 255, 216, 1) 64%,
+            rgba(255, 255, 255, 1) 73%,
+            rgba(255, 255, 255, 1) 100%
+            ),
+        url(../IMG/folhas-bg.jpg);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+}
+
+.bloco-sobre1 {
+    background: linear-gradient(to bottom, #fff, #ebebeb);
+    border: solid 1px black;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    font-family: 'Poppins';
+    margin-left: 100px;
+    margin-top: 120px;
+    width: 30%;
+}
+
+.bloco-sobre2 {
+    background: linear-gradient(to bottom, #fff, #ebebeb);
+    border: solid 1px black;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    font-family: 'Poppins';
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 30%;
+}
+
+.bloco-sobre1 p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.bloco-sobre2 p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.bloco-sobre1 h2{
+    padding-left: 6px;
+}
+
+.bloco-sobre2 h2{
+    padding-left: 6px;
 }
