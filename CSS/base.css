@@ -294,6 +294,16 @@ body {
   text-underline-offset: 4px;
 }
 
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .rdp {
   background-color: #588157;
   font-family: "Montserrat";

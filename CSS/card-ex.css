@@ -253,6 +253,16 @@
   height: 40px;
 }
 
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .pets a {
   height: 30px;
   width: 30px;

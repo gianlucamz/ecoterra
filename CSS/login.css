@@ -22,6 +22,11 @@
   margin-top: 9px;
 }
 
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .search-box input {
   border: 1px;
   box-shadow: 1px 1px 5px black;
@@ -31,6 +36,11 @@
   font-size: 15px;
   padding: 15px;
   outline: none;
+}
+
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .search-box {
