@@ -554,3 +554,8 @@ body {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

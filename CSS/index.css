@@ -1473,6 +1473,12 @@ transform: scale(1.02);
   text-decoration: none;
 }
 
+
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .listas {
   margin-top: 10px;
   gap: 15px;

@@ -38,6 +38,11 @@
   outline: none;
 }
 
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .search-box {
   margin-top: 28px;
   margin-left: 37px;

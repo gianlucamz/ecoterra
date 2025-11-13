@@ -253,6 +253,11 @@
   margin-left: 300px;
 }
 
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .pets img {
   width: 40px;
   height: 40px;
