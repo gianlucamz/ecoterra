@@ -1293,28 +1293,9 @@ transform: scale(1.02);
     margin-left: 100px;
 }
 
-.coleira {
-    display: flexbox;
-    white-space: nowrap;
-    text-align: justify;
-    font-weight: 0;
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-.coleira img {
-    height: 250px;
-    width: 250px;
-    margin-top: 20px;
-    display: flexbox;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
 .coleira a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .coleira:hover {
