@@ -22,6 +22,10 @@
   margin-top: 9px;
 }
 
+.bg img{
+  width: 100%;
+}
+
 .search-box input {
   border: 1px;
   box-shadow: 1px 1px 5px black;
