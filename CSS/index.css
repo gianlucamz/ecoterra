@@ -693,6 +693,11 @@ body {
   transform: scale(1.02);
 }
 
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .casa2 {
   font-family: 'Montserrat', sans-serif;
   color: black;

@@ -543,3 +543,8 @@ body {
   font-size: 20px;
   margin-top: 10px;
 }
+
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

@@ -45,6 +45,11 @@
   display: flex;
 }
 
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .search-box ion-icon {
   position: absolute;
   left: 390px;
