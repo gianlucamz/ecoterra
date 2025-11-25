@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 * {
   margin: 0;
@@ -8,21 +9,22 @@
 
 .header {
   background-color: #86c97d;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  height: auto 150px;
-  width: 100%;
-  padding: 1px;
-  margin-bottom: 0px;
+  color: #fff;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  padding: 12px 40px;
 }
 
 .img {
   display: flex;
-  margin-left: auto 55px;
-  margin-top: auto 3px;
+  margin-left: 72px;
+  margin-top: 9px;
+}
+
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .search-box input {
@@ -33,11 +35,17 @@
   width: 430px;
   font-size: 15px;
   padding: 15px;
+  outline: none;
+}
+
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .search-box {
   margin-top: 28px;
-  margin-left: 40px;
+  margin-left: 37px;
   position: relative;
 }
 
@@ -60,20 +68,20 @@
   list-style: none;
   display: flex;
   gap: 40px;
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 .navbar_Links a {
   color: black;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin-left: 40px;
 }
 
 .login a {
-  margin-left: 90px;
+  margin-left: 80px;
   color: #3a5a40;
   border-radius: 50px;
   height: 40px;
@@ -103,8 +111,8 @@
 
 .carrinho ion-icon {
   color: #3a5a40;
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   margin-left: -50px;
 }
 
@@ -115,10 +123,11 @@
 }
 
 .notificações ion-icon {
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   font-weight: 600px;
-  margin-left: 80px;
+  margin-left: 60px;
+  margin-right: 72px;
 }
 
 .categorias {
@@ -126,25 +135,25 @@
   height: 50px;
   width: 100%;
   display: flex;
-  box-shadow: 0px 1px 3px 1px black;
+  box-shadow: 0px 2px 6px;
   justify-content: center;
 }
 
 .higiene a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
   margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -154,19 +163,20 @@
 }
 
 .casa a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -182,19 +192,20 @@
 }
 
 .cozinha a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 250px;
 }
@@ -205,19 +216,20 @@
 }
 
 .moda a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -228,19 +240,20 @@
 }
 
 .escritorio a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -251,22 +264,24 @@
 }
 
 .pets a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 200px;
 }
+
 body {
   font-family: Arial, sans-serif;
   background-color: #fff;
@@ -275,28 +290,18 @@ body {
   color: #333;
 }
 
-.pets:hover {
-  transform: scale(1.05);
+.categorias a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 550;
+  position: relative;
+  transition: color 0.4s ease;
 }
 
-.moda:hover {
-  transform: scale(1.05);
-}
-
-.escritorio:hover {
-  transform: scale(1.05);
-}
-
-.casa:hover {
-  transform: scale(1.05);
-}
-
-.cozinha:hover {
-  transform: scale(1.05);
-}
-
-.higiene:hover {
-  transform: scale(1.05);
+.categorias a:hover{
+  color: #86c97d;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .rdp {
@@ -409,6 +414,162 @@ body {
         background-repeat: no-repeat;
 }
 
+.cadastrar-container {
+    display: flex;
+    justify-content: center;
+    gap: 156px;
+}
+
 .cadastrar {
-    
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    width: 710px;
+    margin-top: 120px;
+    border: solid 0.8px #000;
+    height: 360px;
+}
+
+.cadastrar h2 {
+    margin-bottom: 15px;
+    color: #000;
+    font-family: "Montserrat";
+    font-weight: 520;
+}
+
+.cadastrar input {
+    width: 95%;
+    padding: 10px;
+    margin: 6px auto 25px auto;
+    border: 0.7px solid #0000006c;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    font-family: montserrat;
+    display: block;
+}
+
+.cadastrar p {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.cadastrar input:focus {
+    outline: none;
+    border-color: #5da35d;
+    box-shadow: 0 0 8px rgba(93, 163, 93, 0.4);
+}
+
+
+.entrar {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  width: 710px;
+  margin-top: 120px;
+  border: solid 0.8px #000;
+}
+
+.entrar h2 {
+  margin-bottom: 15px;
+  color: #000;
+  font-family: "Montserrat";
+  font-weight: 520;
+}
+
+.entrar input {
+  width: 95%;
+  padding: 10px;
+  margin: 6px auto 25px auto;
+  border: 0.7px solid #0000006c;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  font-family: montserrat;
+  display: block;
+}
+
+.entrar p {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.entrar input:focus {
+  outline: none;
+  border-color: #5da35d;
+  box-shadow: 0 0 8px rgba(93, 163, 93, 0.4);
+}
+
+.ou {
+    font-weight: 400;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.ou::before,
+.ou::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #aaa;
+  margin: 0 10px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+
+.social-login button {
+  display: flex;
+  align-items: center;
+    padding: 9px 70px;
+    border: 0.7px solid #0000006c;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 48px
+}
+
+.facebook {
+    margin-left: 20px;
+}
+
+.facebook img{
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  
+}
+
+.google {
+    margin-right: 20px;
+}
+
+.google img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.btn-login {
+    width: 70%;
+    background-color: #86C97D;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: poppins;
+    display: block;
+    margin: -15px auto auto auto;
 }

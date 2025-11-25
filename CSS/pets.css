@@ -1,307 +1,320 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
-    background-color: #86C97D;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    height: auto 150px;
-    width: 100%;
-    padding: 1px;
-    margin-bottom: 0px ;
-    display: flex;
-    align-items: center;
+  background-color: #86c97d;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
 }
 
 .img {
-    display: flex;
-    margin-left: auto 55px;
-    margin-top: auto 3px;
+  display: flex;
+  margin-left: 72px;
+  margin-top: 9px;
 }
 
-.pets:hover {
-  transform: scale(1.05);
-}
-
-.moda:hover {
-  transform: scale(1.05);
-}
-
-.escritorio:hover {
-  transform: scale(1.05);
-}
-
-.casa:hover {
-  transform: scale(1.05);
-}
-
-.cozinha:hover {
-  transform: scale(1.05);
-}
-
-.higiene:hover {
-  transform: scale(1.05);
-}
-
-.search-box input{
-    border: 1px;
-    box-shadow: 1px 1px 5px black;
-    font-family: inherit;
-    height: 40px;
-    width: 430px;
-    font-size: 15px;
-    padding: 15px;
+.search-box input {
+  border: 1px;
+  box-shadow: 1px 1px 5px black;
+  font-family: inherit;
+  height: 40px;
+  width: 430px;
+  font-size: 15px;
+  padding: 15px;
+  outline: none;
 }
 
 .search-box {
-    margin-top: 28px ;
-    margin-left: 40px;
-    position: relative;
+  margin-top: 28px;
+  margin-left: 37px;
+  position: relative;
 }
 
 .header1 {
-    margin-top: auto;
-    height: 100px;
-    display: flex;
+  margin-top: auto;
+  height: 100px;
+  display: flex;
 }
 
 .search-box ion-icon {
   position: absolute;
-  left: 390px;       
-  top: 20px;          
+  left: 390px;
+  top: 20px;
   transform: translateY(-50%);
   color: black;
   font-size: 20px;
-  
 }
 
 .navbar_Links {
-     list-style: none;
-     display: flex;
-     gap: 40px;
-     margin-left: 45px;
-    
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-left: 30px;
 }
 
-.navbar_Links a{
-    color: black;
-    font-weight: 500;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    margin-left: 40px;
+.navbar_Links a {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin-left: 40px;
 }
 
-.login a{
-    margin-left: 90px;
-    color: #3A5A40;
-    border-radius: 50px;
-    height: 40px;
-    width: 145px;
-    background-color: #7ab672;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    font-weight: 550;
-    align-items: center;
-    display: flex;
-    gap: 5px;
-    padding-left: 35px;
-    border:#3A5A40 solid;
-    border-width: 2px;
-    text-decoration: none;
+.login a {
+  margin-left: 80px;
+  color: #3a5a40;
+  border-radius: 50px;
+  height: 40px;
+  width: 145px;
+  background-color: #7ab672;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 550;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  padding-left: 35px;
+  border: #3a5a40 solid;
+  border-width: 2px;
+  text-decoration: none;
 }
 
 .login ion-icon {
-    color: black;
+  color: black;
 }
 
 .carrinho a {
-    margin-left: 100px;
-    height: 50px;
-    width: 35px;
-
+  margin-left: 100px;
+  height: 50px;
+  width: 35px;
 }
 
 .carrinho ion-icon {
-    color: #3A5A40;
-    height: 50px;
-    width: 35px;
-    margin-left: -50px;
+  color: #3a5a40;
+  height: 45px;
+  width: 30px;
+  margin-left: -50px;
 }
 
 .notificações a {
-    color: #3A5A40;
-    height: 50px;
-    width: 35px;
+  color: #3a5a40;
+  height: 50px;
+  width: 35px;
 }
 
 .notificações ion-icon {
-    height: 50px;
-    width: 35px;
-    font-weight: 600px;
-    margin-left: 80px;
+  height: 45px;
+  width: 30px;
+  font-weight: 600px;
+  margin-left: 60px;
+  margin-right: 72px;
 }
 
 .categorias {
-    background-color: white;
-    height: 50px;
-    width: 1920px;
-    display: flex;
-    box-shadow: 0px 1px 3px 1px black;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 2px 6px;
+  justify-content: center;
 }
 
 .higiene a {
-    height: 40px;
-    width: 40px;
-    padding: 3px;
-    margin-left: 200px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-weight: 500;
-    display: flex;
-    align-items: center;   
-    justify-content: center;
-    gap: 10px;            
-    margin-top: 5px;
-    white-space: nowrap;
-    font-size: 20px;
-    text-decoration: none;
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  margin-left: 80px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .higiene img {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
-.casa a{
-    height: 40px;
-    width: 40px;
-    padding: 3px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-weight: 500;
-    display: flex;
-    align-items: center;   
-    justify-content: center;
-    gap: 10px;            
-    margin-top: 5px;
-    white-space: nowrap;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 300px;
+.casa a {
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  margin-left: 80px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 300px;
 }
 
 .casa img {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 .cozinha img {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
-.cozinha a{
-    height: 40px;
-    width: 40px;
-    padding: 3px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-weight: 500;
-    display: flex;
-    align-items: center;   
-    justify-content: center;
-    gap: 8px;            
-    margin-top: 5px;
-    white-space: nowrap;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 250px;
+.cozinha a {
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  margin-left: 80px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 250px;
 }
 
 .moda img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
-.moda a{
-    height: 40px;
-    width: 40px;
-    padding: 3px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-weight: 500;
-    display: flex;
-    align-items: center;   
-    justify-content: center;
-    gap: 8px;            
-    margin-top: 5px;
-    white-space: nowrap;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 300px;
+.moda a {
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  margin-left: 80px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 300px;
 }
 
 .escritorio img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .escritorio a {
-    height: 40px;
-    width: 40px;
-    padding: 3px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-weight: 500;
-    display: flex;
-    align-items: center;   
-    justify-content: center;
-    gap: 8px;            
-    margin-top: 5px;
-    white-space: nowrap;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 300px;
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  margin-left: 80px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 300px;
 }
 
 .pets img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .pets a {
-    height: 40px;
-    width: 40px;
-    padding: 3px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-weight: 500;
-    display: flex;
-    align-items: center;   
-    justify-content: center;
-    gap: 8px;            
-    margin-top: 5px;
-    white-space: nowrap;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 200px;
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  margin-left: 80px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 200px;
 }
 
-.higiene-pessoal {
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.categorias a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 550;
+  position: relative;
+  transition: color 0.4s ease;
+}
+
+.categorias a:hover{
+  color: #86c97d;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.pets2 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: 0;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.categoria1 {
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 20px;
     padding: 12px;
     font-weight: 0;
     margin-top: 20px;
-    margin-left: 100px;
     display: flex;
+    margin-left: 100px;
 }
 
 .coleira {
@@ -329,7 +342,7 @@
 }
 
 .coleira:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .preco-original {
@@ -357,7 +370,7 @@
 }
 
 .snack-natural:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .snack-natural {
@@ -387,7 +400,7 @@
 }
 
 .snack-batata:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .snack-batata {
@@ -417,7 +430,7 @@
 }
 
 .mordedor:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .mordedor {
@@ -437,96 +450,110 @@
 }
 
 .rdp {
-  background-color: #588157;
-  font-family: "Montserrat";
-  height: auto 450px;
-  width: auto 1920px;
-  padding: 1px;
-  margin-bottom: 0px;
-  margin-top: 100px;
-  display: flex;
-}
+    background-color: #588157;
+    font-family: "Montserrat";
+    height: auto 450px;
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rdp img {
+    height: 200px;
+    width: 300;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+  }
+  
+  .rdp a {
+    text-decoration: none;
+  }
+  
+  .social a {
+    color: white;
+  }
+  
+  .social {
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: 100px;
+    color: white;
+    display: flex;
+  }
+  
+  .social ion-icon {
+    color: black;
+    height: 30px;
+    width: 30px;
+    gap: 5px;
+    margin-left: 5px;
+    margin-top: -3px;
+  }
+  
+  .institucional {
+    color: white;
+    font-family: "Montserrat";
+    margin-left: 150px;
+    margin-top: 80px;
+    text-align: justify;
+  }
+  
+  .listas a {
+    color: white;
+    font-weight: -300;
+    text-decoration: none;
+  }
+  
+  .listas {
+    margin-top: 10px;
+    gap: 15px;
+    list-style: none;
+  }
+  
+  .categoriasbot {
+    color: white;
+    font-family: "Montserrat";
+    margin-left: 100px;
+    margin-top: 80px;
+    text-align: justify;
+  }
+  
+  .atendimento {
+    color: white;
+    font-family: "Montserrat";
+    margin-left: 100px;
+    margin-top: 80px;
+    text-align: justify;
+  }
+  
+  .formaspag {
+    color: white;
+    font-family: "Montserrat";
+    margin-left: 80px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .formaspag img {
+    height: 200px;
+    width: 320px;
+    margin-top: 0px;
+  }
 
-.rdp img {
-  height: 200px;
-  width: 300;
-  margin-top: 100px;
-  margin-bottom: 70px;
-  margin-left: 50px;
-}
+  .preço {
+    font-size: 20px;
+    margin-top: 10px;
+  }
 
-.rdp a {
-  text-decoration: none;
-}
+  .navbar_Links a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
 
-.social a {
-  color: white;
-}
-
-.social {
-  margin-bottom: 30px;
-  font-size: 20px;
-  margin-left: 100px;
-  color: white;
-  display: flex;
-}
-
-.social ion-icon {
-  color: black;
-  height: 30px;
-  width: 30px;
-  gap: 5px;
-  margin-left: 5px;
-  margin-top: -3px;
-}
-
-.institucional {
-  color: white;
-  font-family: "Montserrat";
-  margin-left: 150px;
-  margin-top: 80px;
-  text-align: justify;
-}
-
-.listas a {
-  color: white;
-  font-weight: -300;
-  text-decoration: none;
-}
-
-.listas {
-  margin-top: 10px;
-  gap: 15px;
-  list-style: none;
-}
-
-.categoriasbot {
-  color: white;
-  font-family: "Montserrat";
-  margin-left: 100px;
-  margin-top: 80px;
-  text-align: justify;
-}
-
-.atendimento {
-  color: white;
-  font-family: "Montserrat";
-  margin-left: 100px;
-  margin-top: 80px;
-  text-align: justify;
-}
-
-.formaspag {
-  color: white;
-  font-family: "Montserrat";
-  margin-left: 80px;
-  margin-top: 80px;
-  text-align: center;
-}
-
-.formaspag img {
-  height: 200px;
-  width: 320px;
-  margin-top: 0px;
-}
-
+  .listas a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }

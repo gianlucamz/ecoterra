@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 * {
   margin: 0;
@@ -6,22 +7,19 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(175, 174, 174);
-  align-items: center;
-  font-family: "Montserrat"
-}
-
 .header {
   background-color: #86c97d;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  height: auto 150px;
-  width: 100%;
-  padding: 1px;
-  margin-bottom: 0px;
+  color: #fff;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 12px 40px;
+}
+
+.img {
+  display: flex;
+  margin-left: 72px;
+  margin-top: 9px;
 }
 
 .search-box input {
@@ -32,11 +30,12 @@ body {
   width: 430px;
   font-size: 15px;
   padding: 15px;
+  outline: none;
 }
 
 .search-box {
   margin-top: 28px;
-  margin-left: 40px;
+  margin-left: 37px;
   position: relative;
 }
 
@@ -59,20 +58,20 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 .navbar_Links a {
   color: black;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin-left: 40px;
 }
 
 .login a {
-  margin-left: 90px;
+  margin-left: 80px;
   color: #3a5a40;
   border-radius: 50px;
   height: 40px;
@@ -102,8 +101,8 @@ body {
 
 .carrinho ion-icon {
   color: #3a5a40;
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   margin-left: -50px;
 }
 
@@ -114,10 +113,11 @@ body {
 }
 
 .notificações ion-icon {
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   font-weight: 600px;
-  margin-left: 80px;
+  margin-left: 60px;
+  margin-right: 72px;
 }
 
 .categorias {
@@ -125,24 +125,25 @@ body {
   height: 50px;
   width: 100%;
   display: flex;
-  box-shadow: 0px 1px 3px 1px black;
+  box-shadow: 0px 2px 6px;
+  justify-content: center;
 }
 
 .higiene a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
-  margin-left: 200px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -152,19 +153,20 @@ body {
 }
 
 .casa a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -180,19 +182,20 @@ body {
 }
 
 .cozinha a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 250px;
 }
@@ -203,19 +206,20 @@ body {
 }
 
 .moda a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -226,19 +230,20 @@ body {
 }
 
 .escritorio a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -248,48 +253,56 @@ body {
   height: 40px;
 }
 
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .pets a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 200px;
 }
 
-.pets:hover {
-  transform: scale(1.05);
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-.moda:hover {
-  transform: scale(1.05);
+.categorias a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 550;
+  position: relative;
+  transition: color 0.4s ease;
 }
 
-.escritorio:hover {
-  transform: scale(1.05);
+.categorias a:hover{
+  color: #86c97d;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
-
-.casa:hover {
-  transform: scale(1.05);
-}
-
-.cozinha:hover {
-  transform: scale(1.05);
-}
-
-.higiene:hover {
-  transform: scale(1.05);
-}
-
 .rdp {
   background-color: #588157;
   font-family: "Montserrat";
@@ -385,7 +398,7 @@ body {
 }
 
 .card {
-  height: 500vh;
+  height: fit-content;
   width: 80vw;
   margin-top: 20px;
   margin-left: 192px;
@@ -518,6 +531,7 @@ body {
   margin-left: 200px;
   font-size: 20px;
   margin-bottom: 80px;
+  font-family: "Montserrat";
 }
 
 .card {
@@ -535,6 +549,7 @@ body {
   margin-top: 80px;
   font-size: 20px;
   margin-bottom: 80px;
+  font-family: "Montserrat";
 }
 
 .nota {
@@ -596,4 +611,179 @@ body {
 
 .avaliacao3 {
   margin-top: 30px;
+  font-family: "Montserrat";
+}
+
+.tit {
+  font-family: "Montserrat";
+  font-size: 20px;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+
+.moda-acessorios {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: 0;
+  margin-top: 20px;
+  margin-left: 80px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.camisaover {
+  display: flexbox;
+  white-space: nowrap;
+  text-align: justify;
+  font-weight: 0;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.camisaover img {
+  height: 250px;
+  width: 250px;
+  margin-top: 20px;
+  display: flexbox;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.camisaover a {
+  text-decoration: none;
+  color: black;
+}
+
+.camisaover:hover {
+transform: scale(1.05);
+}
+
+.preco-original {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.desconto {
+  font-size: 12px;
+  color: #777;
+  vertical-align: top; 
+  display: inline-block;
+}
+
+.vestido img {
+  height: 250px;
+  width: 180px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flexbox;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.vestido {
+  display: flexbox;
+  white-space: nowrap;
+  text-align: justify;
+  font-weight: 0;
+  justify-content: center;
+  margin-left: 150px;
+  margin-top: 20px;
+  
+}
+
+.vestido a {
+  text-decoration: none;
+  color: black;
+}
+
+.vestido:hover {
+transform: scale(1.05);
+}
+
+.moletoncapuz img {
+  height: 250px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flexbox;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.moletoncapuz:hover {
+transform: scale(1.05);
+}
+
+.moletoncapuz {
+  display: flexbox;
+  white-space: nowrap;
+  text-align: justify;
+  font-weight: 0;
+  justify-content: center;
+  margin-left: 150px;
+  margin-top: 20px;
+  
+}
+
+.moletoncapuz a {
+  text-decoration: none;
+  color: black;
+}
+
+.ecamisa img {
+  height: 250px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flexbox;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.ecamisa {
+  display: flexbox;
+  white-space: nowrap;
+  text-align: justify;
+  font-weight: 0;
+  justify-content: center;
+  margin-left: 150px;
+  margin-top: 20px;
+  
+}
+
+.ecamisa a {
+  text-decoration: none;
+  color: black;
+}
+
+.ecamisa:hover {
+transform: scale(1.05);
+}
+
+.estrelas {
+  display: flex;
+}
+
+.estrela, .meia {
+  font-size: 1.8rem;
+  color: #7AC488; 
+  margin-right: 2px;
+}
+
+.meia {
+  position: relative;
+  color: #ccc; 
+}
+
+.meia::before {
+  content: '★';
+  color: #7AC488;
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
 }

@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 * {
   margin: 0;
@@ -8,20 +9,17 @@
 
 .header {
   background-color: #86c97d;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  height: auto 150px;
-  width: 100%;
-  padding: 1px;
-  margin-bottom: 0px;
+  color: #fff;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 12px 40px;
 }
 
 .img {
   display: flex;
-  margin-left: auto 55px;
-  margin-top: auto 3px;
+  margin-left: 72px;
+  margin-top: 9px;
 }
 
 .search-box input {
@@ -32,11 +30,12 @@
   width: 430px;
   font-size: 15px;
   padding: 15px;
+  outline: none;
 }
 
 .search-box {
   margin-top: 28px;
-  margin-left: 40px;
+  margin-left: 37px;
   position: relative;
 }
 
@@ -59,20 +58,20 @@
   list-style: none;
   display: flex;
   gap: 40px;
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 .navbar_Links a {
   color: black;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin-left: 40px;
 }
 
 .login a {
-  margin-left: 90px;
+  margin-left: 80px;
   color: #3a5a40;
   border-radius: 50px;
   height: 40px;
@@ -102,8 +101,8 @@
 
 .carrinho ion-icon {
   color: #3a5a40;
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   margin-left: -50px;
 }
 
@@ -114,35 +113,37 @@
 }
 
 .notificações ion-icon {
-  height: 50px;
-  width: 35px;
+  height: 45px;
+  width: 30px;
   font-weight: 600px;
-  margin-left: 80px;
+  margin-left: 60px;
+  margin-right: 72px;
 }
 
 .categorias {
   background-color: white;
   height: 50px;
-  width: 1920px;
+  width: 100%;
   display: flex;
-  box-shadow: 0px 1px 3px 1px black;
+  box-shadow: 0px 2px 6px;
+  justify-content: center;
 }
 
 .higiene a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
-  margin-left: 200px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -152,19 +153,20 @@
 }
 
 .casa a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -180,19 +182,20 @@
 }
 
 .cozinha a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 250px;
 }
@@ -203,19 +206,20 @@
 }
 
 .moda a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -226,19 +230,20 @@
 }
 
 .escritorio a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 300px;
 }
@@ -249,56 +254,67 @@
 }
 
 .pets a {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 3px;
+  margin-left: 80px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 10px;
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 200px;
 }
 
-.pets:hover {
-  transform: scale(1.05);
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-.moda:hover {
-  transform: scale(1.05);
+.categorias a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 550;
+  position: relative;
+  transition: color 0.4s ease;
 }
 
-.escritorio:hover {
-  transform: scale(1.05);
+.categorias a:hover{
+  color: #86c97d;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
-.casa:hover {
-  transform: scale(1.05);
-}
-
-.cozinha:hover {
-  transform: scale(1.05);
-}
-
-.higiene:hover {
-  transform: scale(1.05);
-}
-
-.higiene-pessoal {
-  font-family: "Montserrat", sans-serif;
+.higiene2 {
+  font-family: 'Montserrat', sans-serif;
   color: black;
   font-size: 20px;
   padding: 12px;
   font-weight: 0;
-  margin-top: 20px;
-  margin-left: 100px;
   display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.categoria1 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: 0;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 100px;
 }
 
 .desodorante {
@@ -320,7 +336,7 @@
   margin-bottom: 30px;
 }
 
-.higiene-pessoal a {
+.higiene2 a {
   text-decoration: none;
   color: black;
 }
@@ -400,30 +416,30 @@
 }
 
 .desodorante:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .kit-cbl:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .escova:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .sabonete:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .rdp {
   background-color: #588157;
   font-family: "Montserrat";
   height: auto 450px;
-  width: auto 1920px;
+  width: 100%;
   padding: 1px;
   margin-bottom: 0px;
-  margin-top: 100px;
   display: flex;
+  justify-content: center;
 }
 
 .rdp img {
@@ -507,4 +523,19 @@
   height: 200px;
   width: 320px;
   margin-top: 0px;
+}
+
+.preço {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
