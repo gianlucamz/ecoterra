@@ -11,7 +11,7 @@
   background-color: #86c97d;
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex;
   align-items: center;
   padding: 12px 40px;
 }
@@ -91,7 +91,7 @@
 }
 
 .login ion-icon {
-  color: black;
+  color: #3a5a40;
 }
 
 .carrinho a {
@@ -400,6 +400,187 @@ body {
   margin-top: 0px;
 }
 
+@media (max-width: 1440px) {
+  .header {
+    width: 100% !important;
+  }
+  
+  .img {
+    margin-left: 0;
+  }
+
+  .search-box {
+    margin-left: 0px;
+  }
+
+  .search-box ion-icon {
+    opacity: 0;
+  }
+
+  .search-box input {
+    width: 300px;
+  }
+
+  .navbar_Links {
+    gap: 0px;
+    margin-left: 0px;
+    white-space: nowrap;
+  }
+
+  .navbar_Links a {
+    margin-left: 30px;
+  }
+
+  .login a {
+    margin-left: 50px;
+  }
+
+    .categorias a {
+      font-size: 1rem !important ;
+      margin-top: 5px;
+      margin-left: 0px;
+      font-weight: 500;
+    }
+
+    .categorias img {
+      height: 25px;
+      width: 25px;
+    }
+
+    .categorias {
+      height: 40px;
+      margin-left: 0px;
+      justify-content: flex-start;
+      width: 100% !important;
+    }
+
+    .higiene a {
+      margin-left: 110px;
+      justify-content: start;
+      gap: 2;
+      width: fit-content;
+    }
+
+    .higiene {
+      width: 150px;
+      padding: 0px;
+      width: fit-content;
+    }
+
+    .casa a {
+      margin-left: 0px;
+      justify-content: start;
+      gap: 2;
+      width: fit-content;
+      margin-left: 70px;
+    }
+
+    .casa {
+      width: 150px;
+      padding: 0px;
+      width: fit-content;
+    }
+
+    .cozinha a {
+      margin-left: 0px;
+      justify-content: start;
+      gap: 2;
+      width: fit-content;
+      margin-left: 70px;
+    }
+
+    .cozinha {
+      width: 150px;
+      padding: 0px;
+      width: fit-content;
+    }
+
+    .moda a {
+      margin-left: 0px;
+      justify-content: start;
+      gap: 2;
+      width: fit-content;
+      margin-left: 70px;
+    }
+
+    .moda {
+      width: 150px;
+      padding: 0px;
+      width: fit-content;
+    }
+
+    .escritorio a {
+      margin-left: 0px;
+      justify-content: start;
+      gap: 2;
+      width: fit-content;
+      margin-left: 70px;
+    }
+
+    .escritorio {
+      width: 150px;
+      padding: 0px;
+      width: fit-content;
+    }
+
+    .pets a {
+      margin-left: 0px;
+      justify-content: start;
+      gap: 2;
+      width: fit-content;
+      margin-left: 70px;
+    }
+
+    .pets {
+      width: 150px;
+      padding: 0px;
+      width: fit-content;
+    }
+
+    .esqrd img {
+      width: 230px;
+      height: 100px;
+      margin-left: 0px;
+    }
+
+    .esqrd {
+      margin-left: 100px;
+    }
+
+    .rdp {
+      height: 350px;
+      justify-content: start  ;
+      width: 100% !important;
+    }
+
+    .social {
+      white-space: nowrap;
+      margin-left: 40px !important;
+    }
+
+    .institucional {
+      margin-left: 60px !important;
+    }
+
+    .atendimento {
+      margin-left: 60px !important;
+    }
+
+    .listas a {
+      white-space: nowrap;
+    }
+
+    .formaspag {
+      margin-left: 60px !important;
+    }
+
+    .formaspag img {
+      margin-left: 0px !important;
+      width: 200px !important;
+      height: 140px !important;
+    }
+}
+
 @media (max-width: 1024px) {
   .search-box {
     margin-top: 1rem;
@@ -408,7 +589,8 @@ body {
   }
 
   .search-box input {
-    width: 190px;
+    width: 200px;
+    margin-left: 40px;
   }
 
   .search-box ion-icon {
@@ -417,12 +599,11 @@ body {
 
   .header {
     height: 80px;
-    display: flex;
+    display: flex !important;
   }
 
   .img img {
     display: flex;
-    margin-left: -60px;
     margin-top: 0px;
     height: 50px;
   }
@@ -440,41 +621,41 @@ body {
   }
 
   .login a {
-    margin-left: 0px;
+    margin-left: 150px;
     margin-right: 0px;
-    width: 140px;
-    margin-left: 50px;
+    width: 145px;
   }
 
   .carrinho ion-icon {
-    margin-left: 0px;
+    margin-left: 20px;
     margin-right: 0px;
-    
+    width: 30px;
+    height: 30px;
   }
 
   .notificações ion-icon {
-    margin-left: 0px;
+    margin-left: 20px;
     margin-right: 0px;
   }
 
-  .carrinho a {
-    margin-left: 0px;
+  .carrinho a { 
     margin-right: 0px;
-    width: auto;
-    margin-left: 50px;
+    width: 30px;
+    height: 50x;
+    margin-left: 20px;
   }
 
   .notificações a {
-    margin-left: 0px;
+    margin-left: 20px;
     margin-right: 0px;
-    width: auto;
-    margin-left: 50px;
+    width: 30px;
+    height: 50x;
   }
 
   .navbar_toggle {
     display: block !important;
     font-size: 2rem;
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   .navbar_toggle ion-icon {
@@ -494,10 +675,22 @@ body {
 
 }
 
+@media (max-width: 768px) {
+.login a {
+  margin-left: 50px;
+}
+
+.search-box input {
+  width: 140px;
+  margin-left: 15px;
+}
+}
+
 .navbar_toggle {
   font-size: 2rem;
   border: none;
   background: none;
+  color: var(--text-dark);
   cursor: pointer;
   display: none;
 }
@@ -510,19 +703,25 @@ body {
   transition: 0.3s;
 }
 
+.mobile-wrapper {
+  position: relative;
+  display: inline-block;  
+}
+
 #mobile {
   position: absolute;
-  top: 85px;
-  right: 20px;
+  top: 45px;     
+  left: 0;    
+  margin-left: 10px; 
   width: 240px;
   background-color: white;
   border-radius: 12px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
   padding: 1.2rem 1rem;
   opacity: 0;
-  transform: translateY(-15px);
-  z-index: 999;
-  transition: color 0.4s ease;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: all 0.20s ease;
 }
 
 #mobile li {
@@ -540,8 +739,9 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 0.8rem;
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
 }
 
 #mobile a:hover {

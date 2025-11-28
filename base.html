@@ -25,13 +25,47 @@
       <li><a href="index.html">Ínicio</a></li>
       <li><a href="index.html">Produtos</a></li>
       <li><a href="#">Contato</a></li>
-      <li><a href="#">Sobre-nós</a></li>
+      <li><a href="sobrenos.html">Sobre-nós</a></li>
     </ul>
     <div class="login">
       <a href="#" target="_self">
         Entrar
         <ion-icon name="person-outline"></ion-icon>
       </a>
+    </div>
+    <div class="mobile-wrapper">
+      <button class="navbar_toggle" aria-label="menu mobile">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <ul class="navbar_Links" id="mobile">
+        <li><a href="index.html">Ínicio</a></li>
+        <li><a href="index.html">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="sobrenos.html">Sobre-nós</a></li>
+        <select name="cat" class="cat" onchange="location = this.value;">
+          <option value="" selected>
+            Categorias
+          </option>
+          <option value="higiene.html" >
+            Higiene pessoal
+          </option>
+          <option value="casa.html" >
+            Casa e Limpeza
+          </option>
+          <option value="cozinha.html" >
+            Cozinha
+          </option>
+          <option value="moda.html" >
+            Moda
+          </option>
+          <option value="escritorio.html" >
+            Escritório
+          </option>
+          <option value="pets.html">
+            Pets
+          </option>
+        </select>
+      </ul>
     </div>
     <div class="carrinho">
       <a href="#" target="_self">
@@ -43,7 +77,7 @@
         <ion-icon name="notifications-outline"></ion-icon>
       </a>
     </div>
-  </header>
+   </header>
   <section class="categorias">
     <div class="higiene">
       <a href="higiene.html" target="_self">
@@ -99,10 +133,10 @@
       <strong>INSTITUCIONAL</strong>
       <ul class="listas">
         <li>
-          <a href="#" target="_self"> Sobre-nós </a>
+          <a href="sobrenos.html" target="_self"> Sobre-nós </a>
         </li>
         <li>
-          <a href="#" target="_self"> sustentabilidade </a>
+          <a href="sobrenos.html" target="_self"> sustentabilidade </a>
         </li>
         <li>
           <a href="#" target="_self"> Politica de privacidade </a>
@@ -154,5 +188,8 @@
       <img src="IMG/formaspag.png" alt="Formas de pagamento" />
     </section>
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="JS/script.js"></script>
 </body>
 </html>
