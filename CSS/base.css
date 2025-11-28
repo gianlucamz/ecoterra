@@ -11,6 +11,7 @@
   background-color: #86c97d;
   color: #fff;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 12px 40px;
 }
@@ -573,3 +574,79 @@ body {
 #mobile option {
   font-family: 'Montserrat', sans-serif !important;
 }
+.rdp a {
+  text-decoration: none;
+}
+
+.social a {
+  color: white;
+}
+
+.social {
+  margin-bottom: 30px;
+  font-size: 20px;
+  margin-left: 100px;
+  color: white;
+  display: flex;
+}
+
+.social ion-icon {
+  color: black;
+  height: 30px;
+  width: 30px;
+  gap: 5px;
+  margin-left: 5px;
+  margin-top: -3px;
+  margin-bottom: 30px;
+}
+
+.institucional {
+  color: white;
+  font-family: "Montserrat";
+  margin-left: 150px;
+  margin-top: 80px;
+  text-align: justify;
+}
+
+.listas a {
+  color: white;
+  font-weight: -300;
+  text-decoration: none;
+}
+
+.listas {
+  margin-top: 10px;
+  gap: 15px;
+  list-style: none;
+}
+
+.categoriasbot {
+  color: white;
+  font-family: "Montserrat";
+  margin-left: 100px;
+  margin-top: 80px;
+  text-align: justify;
+}
+
+.atendimento {
+  color: white;
+  font-family: "Montserrat";
+  margin-left: 100px;
+  margin-top: 80px;
+  text-align: justify;
+}
+
+.formaspag {
+  color: white;
+  font-family: "Montserrat";
+  margin-left: 80px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.formaspag img {
+  height: 200px;
+  width: 320px;
+  margin-top: 0px;
+}
+ 
