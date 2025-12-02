@@ -444,6 +444,12 @@ body {
   text-underline-offset: 4px;
 }
 
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+
 .listas {
   margin-top: 10px;
   gap: 15px;
