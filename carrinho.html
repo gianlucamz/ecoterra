@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EcoTerra</title>
   <link rel="icon" href="IMG/logo-icon.png" />
-  <link rel="stylesheet" href="CSS/login.css" />
+  <link rel="stylesheet" href="CSS/carrinho.css" />
 </head>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -51,86 +51,118 @@
     <div class="higiene">
       <a href="higiene.html" target="_self">
         <img src="IMG/higiene-icon.png" alt="Ícone higiene pessoal" />
-        <p>Higiene Pessoal</p>
+        Higiene Pessoal
       </a>
     </div>
     <div class="casa">
       <a href="casa.html" target="_self">
         <img src="IMG/casa-icon.png" alt="Ícone casa e limpeza" />
-        <p>Casa e Limpeza</p>
+        Casa e Limpeza
       </a>
     </div>
     <div class="cozinha">
       <a href="cozinha.html" target="_self">
         <img src="IMG/cozinha-icon.png" alt="Ícone cozinha" />
-        <p>Cozinha</p>
+        Cozinha
       </a>
     </div>
     <div class="moda">
       <a href="moda.html" target="_self">
         <img src="IMG/moda-icon.png" alt="Ícone moda" />
-        <p>Moda e acessórios</p>
+        Moda e acessórios
       </a>
     </div>
     <div class="escritorio">
       <a href="escritorio.html" target="_self">
         <img src="IMG/escritorio-icon.png" alt="Ícone escritório" />
-        <p>Escritório</p>
+        Escritório
       </a>
     </div>
     <div class="pets">
       <a href="pets.html" target="_self">
         <img src="IMG/pets-icon.png" alt="Ícone pets" />
-        <p>Pets</p>
+        Pets
       </a>
     </div>
   </section>
 
-  <section class="background2">
-    <div class="cadastrar-container">
-        <div class="cadastrar">
-            <h2>CADASTRAR</h2>
-            <p>E-mail ou número de telefone:</p>
-            <input type="text" placeholder="Digite aqui...">
-            <div class="ou">
-              <span>OU</span>
-            </div>
-            <div class="social-login">
-                <button class="facebook">
-                  <img src="IMG/facebook.png" alt="logo facebook">
-                  Facebook
-                </button>
-                <button class="google">
-                  <img src="IMG/google.png" alt="Logo Google">
-                  Google
-                </button>
-            </div>
-            <button class="btn-login">Prosseguir</button>
+<section class="gray_bg">
+  <div class="cart_container">
+    <div class="cart_titulo">
+      <img src="IMG/cart-outline.svg" alt="ícone do carrinho" class="cart_icon">
+      <h2>Carrinho</h2>
+      <h3>2 Itens</h3>
+    </div>
+
+    <div class="cart_item">
+      <img src="IMG/cozinha/copo-termico.png" alt="copo térmico" class="item_img">
+
+      <div class="item_info">
+        <h3 class="item_nome">Copo Térmico de Aço Inox Verde Fosco com Tampa e Abridor - 473ml</h3>
+
+        <div class="item_parcelas">
+          <img src="IMG/card-outline.svg" alt="ícone do cartão">
+          <span>Até 12 parcelas sem juros</span>
         </div>
 
-        <div class="entrar">
-            <h2>ENTRAR</h2>
-            <p>E-mail ou número de telefone:</p>
-            <input type="text" placeholder="Digite aqui...">
-            <p>Senha:</p>
-            <input type="password" placeholder="Digite aqui...">
-            <div class="ou">
-              <span>OU</span>
-            </div>
-            <div class="social-login">
-                <button class="facebook">
-                  <img src="IMG/facebook.png" alt="Logo Facebook">
-                  Facebook
-                </button>
-                <button class="google">
-                  <img src="IMG/google.png" alt="Logo Google">
-                  Google
-                </button>
-            </div>
-            <button class="btn-login">Prosseguir</button>
+        <div class="item_btns">
+          <a href="#" class="action">Comprar agora</a>
+          <span class="divider">|</span>
+          <a href="#" class="action">Excluir</a>
         </div>
+      </div>
+
+      <div class="item_right">
+        <div class="qty-box">
+          <button class="qty-decrease" aria-label="Diminuir">-</button>
+          <span class="qty-value">1</span>
+          <button class="qty-increase" aria-label="Aumentar">+</button>
+        </div>
+
+        <span class="estoque">12 produtos disponíveis</span>
+
+        <span class="preco">R$41,21</span>
+      </div>
     </div>
-  </section>
+
+    <div class="cart_item">
+      <img src="IMG/higiene/kit-cabelo.png" alt="kit de cabelo" class="item_img">
+
+      <div class="item_info">
+        <h3 class="item_nome">Kit Vegano Cuidado Para o Cabelo Boni Natural</h3>
+
+        <div class="item_parcelas">
+          <img src="IMG/card-outline.svg" alt="ícone do cartão">
+          <span>Até 12 parcelas sem juros</span>
+        </div>
+
+        <div class="item_btns">
+          <a href="#" class="action">Comprar agora</a>
+          <span class="divider">|</span>
+          <a href="#" class="action">Excluir</a>
+        </div>
+      </div>
+
+      <div class="item_right">
+        <div class="qty-box">
+          <button class="qty-decrease" aria-label="Diminuir">-</button>
+          <span class="qty-value">1</span>
+          <button class="qty-increase" aria-label="Aumentar">+</button>
+        </div>
+
+        <span class="estoque">23 produtos disponíveis</span>
+
+        <span class="preco">R$139,90</span>
+      </div>
+    </div>
+
+    <div class="cart_actions">
+      <button class="comprar-tudo">Comprar tudo</button>
+    </div>
+  </div>
+</section>
+
+
 
   <footer class="rdp">
     <section class="esqrd">

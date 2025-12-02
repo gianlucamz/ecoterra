@@ -68,6 +68,7 @@
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin-left: 40px;
+  white-space: nowrap;
 }
 
 .login a {
@@ -294,143 +295,6 @@ body {
   text-underline-offset: 4px;
 }
 
-.cozinha2 {
-  font-family: 'Montserrat', sans-serif;
-  color: black;
-  font-size: 20px;
-  padding: 12px;
-  font-weight: 0;
-  display: flex;
-  margin-bottom: 30px;
-  justify-content: center;
-  margin-top: -40px;
-}
-
-.categoria1 {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: 20px;
-    padding: 12px;
-    font-weight: 0;
-    margin-top: 20px;
-    display: flex;
-    margin-left: 100px;
-}
-
-.canudo4 {
-  display: flexbox;
-  white-space: nowrap;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  margin-top: 20px;
-  margin-left: 30px;
-}
-
-.canudo4 img {
-  height: 250px;
-  width: 250px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.cozinha2 a {
-  text-decoration: none;
-  color: black;
-}
-
-.preco-original {
-  text-decoration: line-through;
-  color: #aaa;
-  font-size: 14px;
-  display: inline-block;
-}
-
-.desconto {
-  font-size: 12px;
-  color: #777;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.copo-termico img {
-  height: 250px;
-  width: 250px;
-  margin-left: 20px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.copo-termico {
-  display: flexbox;
-  white-space: nowrap;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  margin-left: 150px;
-  margin-top: 20px;
-}
-
-.canudo1 img {
-  height: 250px;
-  width: 250px;
-  margin-left: 20px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.canudo1 {
-  display: flexbox;
-  white-space: nowrap;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  margin-left: 150px;
-  margin-top: 20px;
-}
-
-.kit-talheres-bambu img {
-  height: 250px;
-  width: 250px;
-  margin-left: 20px;
-  margin-top: 20px;
-  display: flexbox;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.kit-talheres-bambu {
-  display: flexbox;
-  white-space: nowrap;
-  text-align: justify;
-  font-weight: 0;
-  justify-content: center;
-  margin-left: 150px;
-  margin-top: 20px;
-}
-
-.canudo4:hover {
-  transform: scale(1.02);
-}
-
-.copo-termico:hover {
-  transform: scale(1.02);
-}
-
-.canudo1:hover {
-  transform: scale(1.02);
-}
-
-.kit-talheres-bambu:hover {
-  transform: scale(1.02);
-}
-
 .rdp {
   background-color: #588157;
   font-family: "Montserrat";
@@ -538,4 +402,91 @@ body {
 .listas a:hover{
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+.categoria1 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  max-width: 1620px;
+  margin: 40px auto 10px auto;
+  padding-left: 20px;
+}
+
+.produto-grid {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 20px;
+  max-width: 1620px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.produto-card {
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+  transition: transform .2s ease;
+  box-sizing: border-box;
+  max-width: 260px;
+  justify-self: center;
+  margin-top: 40px;
+}
+
+.produto-card:hover {
+  transform: scale(1.03);
+}
+
+.produto-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.produto-card a {
+  text-decoration: none;
+  color: black;
+}
+
+.produto-card .nome {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.produto-card .descricao {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #444;
+}
+
+.produto-card .preco {
+  margin-top: 21px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #3a5a40;
+}
+
+.preco-original {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.desconto {
+    font-size: 12px;
+    color: #777;
+    vertical-align: top; 
+    display: inline-block;
+}
+
+.preco-linha {
+  margin-top: 18px;
 }

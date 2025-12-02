@@ -22,11 +22,6 @@
   margin-top: 9px;
 }
 
-.navbar_Links a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
 .search-box input {
   border: 1px;
   box-shadow: 1px 1px 5px black;
@@ -36,11 +31,6 @@
   font-size: 15px;
   padding: 15px;
   outline: none;
-}
-
-.listas a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .search-box {
@@ -78,6 +68,7 @@
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin-left: 40px;
+  white-space: nowrap;
 }
 
 .login a {
@@ -304,10 +295,20 @@ body {
   text-underline-offset: 4px;
 }
 
+.listas a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .rdp {
   background-color: #588157;
   font-family: "Montserrat";
-  height: auto 450px;
+  height: 450px;
   width: 100%;
   padding: 1px;
   margin-bottom: 0px;
@@ -346,6 +347,7 @@ body {
   gap: 5px;
   margin-left: 5px;
   margin-top: -3px;
+  margin-bottom: 30px;
 }
 
 .institucional {
