@@ -73,6 +73,7 @@
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin-left: 40px;
+  white-space: nowrap;
 }
 
 .login a {
