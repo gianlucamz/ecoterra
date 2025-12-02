@@ -114,7 +114,8 @@
 .notificações a {
   color: #3a5a40;
   height: 50px;
-  width: 35px;
+  width: 35px !important;
+  display: inline-block;
 }
 
 .notificações ion-icon {
@@ -576,4 +577,70 @@ body {
 
 .preco-linha {
   margin-top: 18px;
+}
+
+@media (max-width: 1440px) {
+  .header {
+    width: auto;
+    padding: 0px;
+  }
+
+  .img {
+    margin-left: 0px;
+  }
+
+  .search-box {
+    margin-left: 15px;
+    width: 250px;
+  }
+
+  .search-box ion-icon {
+    left: 220px;
+  }
+
+  .search-box input {
+    width: 250px;
+  }
+
+  .navbar_Links a {
+    margin-left: 0px;
+    
+  }
+
+  .navbar_Links {
+    margin-left: 0px;
+    gap: 15px;
+    font-size: 0.8rem;
+    right: 80px;
+    position: relative;
+  }
+
+  .login a {
+    margin-left: 0px;
+  }
+
+  .carrinho a {
+    margin-left: 0px;
+  }
+
+  .carrinho ion-icon {
+    margin-left: 0px;
+  }
+
+  .login {
+    position: relative;
+    right: 150px;
+  }
+
+  .notificações {
+    margin-left: 0px;
+    width: 30px;
+    position: relative;
+    right: 150px;
+  }
+
+  .carrinho {
+    position: absolute;
+    right: 0px;
+  }
 }
