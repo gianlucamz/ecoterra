@@ -13,13 +13,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 40px;
+  padding: 12px 40px; 
 }
 
 .img {
   display: flex;
   margin-left: 72px;
   margin-top: 9px;
+}
+
+.bg img{
+  width: 100%;
 }
 
 .search-box input {
@@ -295,6 +299,87 @@ body {
   text-underline-offset: 4px;
 }
 
+.bar {
+  background-color: #acff4d;
+  margin-top: -5px;
+  height: 75px;
+  display: flex;
+  width: 100%;
+}
+
+.icon1 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 11px;
+  margin-left: 340px;
+}
+
+.text1 {
+  margin-left: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: 500;
+}
+
+.fol1 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 11px;
+  margin-left: 125px;
+}
+
+.icon2 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  margin-left: 125px;
+}
+
+.text2 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.fol2 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 11px;
+  margin-left: 125px;
+}
+
+.icon3 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 11px;
+  margin-left: 125px;
+}
+
+.text3 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.destaques {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: 0;
+  margin-top: 125px;
+  margin-left: 100px;
+  display: flex;
+}
+
 .rdp {
   background-color: #588157;
   font-family: "Montserrat";
@@ -307,11 +392,12 @@ body {
 }
 
 .rdp img {
-  height: 200px;
-  width: 300;
+  height: auto;
+  width: 300px;
+  max-width: 100%;
   margin-top: 100px;
   margin-bottom: 70px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .rdp a {
@@ -353,6 +439,12 @@ body {
   text-decoration: none;
 }
 
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+
 .listas {
   margin-top: 10px;
   gap: 15px;
@@ -392,16 +484,6 @@ body {
 .preço {
   font-size: 20px;
   margin-top: 10px;
-}
-
-.navbar_Links a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.listas a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .categoria1 {
@@ -489,4 +571,503 @@ body {
 
 .preco-linha {
   margin-top: 18px;
+}
+
+.menu {
+  display: none;
+  color: #000;
+}
+
+.botoes-mobile {
+  display: none;
+  cursor: pointer;
+}
+
+.botoes-mobile a ion-icon {
+  display: none;
+}
+
+/* Responsividade */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+  .header {
+    padding: 12px 20px;
+    align-items: center;
+  }
+  
+  .img {
+    margin-left: 20px;
+  }
+  
+  .search-box input {
+    width: 480px;
+  }
+  
+  .search-box ion-icon {
+    left: 430px;
+  }
+  
+  .navbar_Links {
+    gap: 20px;
+  }
+  
+  .navbar_Links a {
+    font-size: 16px;
+    margin-left: 20px;
+    display: none;
+  }
+  
+  .login a {
+    margin-left: 40px;
+    display: none;
+  }
+  
+  .carrinho ion-icon {
+    margin-left: -30px;
+    display: none;
+  }
+  
+  .notificações ion-icon {
+    margin-left: 40px;
+    margin-right: 20px;
+    display: none;
+  }
+  
+  .categorias {
+    height: 20px;
+    background-color: #DADADA;
+  }
+
+  .categorias a {
+    font-size: 14px;
+    display: none;
+  }
+  
+  .higiene a,
+  .casa a,
+  .cozinha a,
+  .moda a,
+  .escritorio a,
+  .pets a {
+    margin-left: 40px;
+  }
+  
+  .menu {
+    display: flex;
+    margin-top: 8px;
+    font-size: 46px;
+    translate: -30px;
+    color: pink;
+  }
+
+  .menu a ion-icon {
+    color: #000;
+  }
+
+  .bar {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text1,
+  .text2,
+  .text3 {
+    font-size: 16px;
+    margin-left: -68px;
+  }
+  
+  .icon1 img,
+  .icon2 img,
+  .icon3 img,
+  .fol1 img,
+  .fol2 img {
+    margin-left: 20px;
+    width: 40px;
+    height: auto;
+  }
+  
+  .rdp {
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    height: 120px;
+    max-width: 100%;
+    margin-top: 120px;
+  }
+  
+  .rdp img {
+    display: none;
+  }
+  
+  .institucional,
+  .categoriasbot,
+  .atendimento, 
+  .esqrd,
+  .formaspag {
+    display: none;
+  }
+
+  .botoes-mobile {
+    display: flex;
+    justify-content: space-around;
+    gap: 180px;
+  }
+  
+  .botoes-mobile a ion-icon {
+    display: flex;
+    color: #fff;
+    font-size: 34px;
+  }
+
+  .produto-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .produto-card {
+    width: 100%;
+    max-width: 220px;
+  }
+  
+  .produto-card img {
+    width: 100%;
+    height: 220px;
+  }
+  
+  .produto-card .nome {
+    font-size: 20px;
+  }
+  
+  .produto-card .descricao {
+    margin-top: 3px;
+    font-size: 13px;
+  }
+  
+  .produto-card .preco {
+    margin-top: 9px;
+    font-size: 19px;
+  }
+  
+  .desconto { 
+    display: none;
+}
+  
+  .preco-linha {
+    margin-top: 9px;
+  }
+}
+
+/* Tablets pequenos */
+@media (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 10px 15px;
+  }
+  
+  .header1 {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+  }
+  
+  .img {
+    margin-left: 0;
+  }
+  
+  .search-box {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .search-box input {
+    width: 250px;
+  }
+  
+  .search-box ion-icon {
+    left: 210px;
+  }
+  
+  .navbar_Links {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  
+  .navbar_Links a {
+    margin-left: 0;
+    font-size: 14px;
+  }
+  
+  .login a {
+    margin-left: 20px;
+    width: 120px;
+    font-size: 15px;
+    padding-left: 25px;
+  }
+  
+  .carrinho a {
+    margin-left: 30px;
+  }
+  
+  .carrinho ion-icon {
+    margin-left: -20px;
+  }
+  
+  .notificações ion-icon {
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  
+  .categorias {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .higiene a,
+  .casa a,
+  .cozinha a,
+  .moda a,
+  .escritorio a,
+  .pets a {
+    margin-left: 15px;
+    font-size: 13px;
+    gap: 5px;
+  }
+  
+  .higiene img,
+  .casa img,
+  .cozinha img,
+  .moda img,
+  .escritorio img,
+  .pets img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .bar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 15px;
+    justify-content: center;
+  }
+  
+  .text1,
+  .text2,
+  .text3 {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .text1 {
+    margin-left: 10px;
+  }
+  
+  .icon1 img,
+  .icon2 img,
+  .icon3 img {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+  }
+  
+  .fol1 img,
+  .fol2 img {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+  }
+  
+  .categoria1 {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  
+  .produto-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 10px;
+  }
+  
+  .rdp {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rdp img {
+    margin: 40px 0 20px 0;
+  }
+  
+  .social {
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+  .institucional,
+  .categoriasbot,
+  .atendimento,
+  .formaspag {
+    margin-left: 0;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .formaspag img {
+    width: 280px;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+  .header {
+    padding: 8px 10px;
+  }
+  
+  .img img {
+    max-width: 150px;
+  }
+  
+  .search-box {
+    margin-left: 10px;
+  }
+  
+  .search-box input {
+    width: 200px;
+    font-size: 13px;
+  }
+  
+  .search-box ion-icon {
+    left: 165px;
+  }
+  
+  .navbar_Links {
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 12px;
+  }
+  
+  .login a {
+    margin-left: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    padding-left: 18px;
+  }
+  
+  .carrinho a,
+  .notificações a {
+    margin-left: 10px;
+  }
+  
+  .carrinho ion-icon,
+  .notificaÃ§Ãµes ion-icon {
+    height: 35px;
+    width: 25px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .categorias {
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+  
+  .higiene a,
+  .casa a,
+  .cozinha a,
+  .moda a,
+  .escritorio a,
+  .pets a {
+    margin-left: 10px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
+  .bar {
+    padding: 10px;
+  }
+  
+  .text1,
+  .text2,
+  .text3 {
+    font-size: 12px;
+    padding: 8px;
+  }
+  
+  .icon1 img,
+  .icon2 img,
+  .icon3 img,
+  .fol1 img,
+  .fol2 img {
+    height: 35px;
+    width: 35px;
+    margin-left: 8px;
+  }
+  
+  .categoria1 {
+    font-size: 16px;
+    margin: 30px auto 10px auto;
+  }
+  
+  .produto-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    padding: 10px;
+  }
+  
+  .produto-card {
+    max-width: 180px;
+  }
+  
+  .produto-card img {
+    height: 180px;
+  }
+  
+  .produto-card .nome {
+    font-size: 16px;
+  }
+  
+  .produto-card .descricao {
+    font-size: 12px;
+  }
+  
+  .produto-card .preco {
+    font-size: 18px;
+  }
+  
+  .rdp img {
+    height: 150px;
+    width: 200px;
+    margin: 30px 0 15px 0;
+  }
+  
+  .social {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .social ion-icon {
+    height: 25px;
+    width: 25px;
+  }
+  
+  .institucional,
+  .categoriasbot,
+  .atendimento,
+  .formaspag {
+    margin-top: 30px;
+  }
+  
+  .formaspag img {
+    width: 240px;
+    height: 150px;
+  }
+  
+  .listas {
+    font-size: 14px;
+  }
 }
