@@ -439,12 +439,6 @@ body {
   text-decoration: none;
 }
 
-
-.listas a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
 .navbar_Links a:hover{
   text-decoration: underline;
   text-underline-offset: 4px;
