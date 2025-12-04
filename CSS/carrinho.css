@@ -13,13 +13,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 40px;
+  padding: 12px 40px; 
 }
 
 .img {
   display: flex;
   margin-left: 72px;
   margin-top: 9px;
+}
+
+.bg img{
+  width: 100%;
 }
 
 .search-box input {
@@ -295,20 +299,91 @@ body {
   text-underline-offset: 4px;
 }
 
-.listas a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
+.bar {
+  background-color: #acff4d;
+  margin-top: -5px;
+  height: 75px;
+  display: flex;
+  width: 100%;
 }
 
-.navbar_Links a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
+.icon1 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 11px;
+  margin-left: 340px;
+}
+
+.text1 {
+  margin-left: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: 500;
+}
+
+.fol1 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 11px;
+  margin-left: 125px;
+}
+
+.icon2 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  margin-left: 125px;
+}
+
+.text2 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.fol2 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 11px;
+  margin-left: 125px;
+}
+
+.icon3 img {
+  height: 50px;
+  width: 50px;
+  margin-top: 11px;
+  margin-left: 125px;
+}
+
+.text3 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.destaques {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: 0;
+  margin-top: 125px;
+  margin-left: 100px;
+  display: flex;
 }
 
 .rdp {
   background-color: #588157;
   font-family: "Montserrat";
-  height: 450px;
+  height: auto 450px;
   width: 100%;
   padding: 1px;
   margin-bottom: 0px;
@@ -317,11 +392,12 @@ body {
 }
 
 .rdp img {
-  height: 200px;
-  width: 300;
+  height: auto;
+  width: 300px;
+  max-width: 100%;
   margin-top: 100px;
   margin-bottom: 70px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .rdp a {
@@ -347,7 +423,6 @@ body {
   gap: 5px;
   margin-left: 5px;
   margin-top: -3px;
-  margin-bottom: 30px;
 }
 
 .institucional {
@@ -363,6 +438,12 @@ body {
   font-weight: -300;
   text-decoration: none;
 }
+
+.navbar_Links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 
 .listas {
   margin-top: 10px;
