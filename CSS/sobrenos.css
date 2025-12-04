@@ -408,7 +408,7 @@ body {
             rgba(255, 255, 255, 1) 73%,
             rgba(255, 255, 255, 1) 100%
             ),
-        url(../IMG/folhas-bg.jpg);
+        url(../IMG/bg2-gradient.png);
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
