@@ -544,3 +544,159 @@ body {
 .bloco-sobre2 h2{
     padding-left: 6px;
 }
+
+.botoes-mobile {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+/* Smartphones */
+@media (max-width: 430px) {
+  .header {
+    padding: 8px 10px;
+    align-items: center;
+    display: flex;
+  }
+  
+  .img img {
+    max-width: 140px;
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+  
+  .search-box {
+    margin-left: 10px;
+  }
+  
+  .search-box input {
+    width: 170px;
+    height: 12px;
+    font-size: 11px;
+    margin-top: 8px;
+  }
+  
+  .search-box ion-icon {
+    left: 145px;
+    height: 16px;
+    margin-top: 4px;
+  }
+
+  .menu {
+    font-size: 30px;
+    margin-left: 16px;
+  }
+  
+  .navbar_Links {
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 12px;
+  }
+  
+  .login a {
+    margin-left: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    padding-left: 18px;
+  }
+  
+  .carrinho a,
+  .notificações a {
+    margin-left: 10px;
+  }
+  
+  .carrinho ion-icon,
+  .notificaÃ§Ãµes ion-icon {
+    height: 35px;
+    width: 25px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .categorias {
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+  
+  .higiene a,
+  .casa a,
+  .cozinha a,
+  .moda a,
+  .escritorio a,
+  .pets a {
+    margin-left: 10px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
+  .bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 48px;
+  }
+  
+  .text1,
+  .text2,
+  .text3 {
+    display: none;
+  }
+  
+  .icon1 img,
+  .icon2 img,
+  .icon3 img,
+  .fol1 img,
+  .fol2 img {
+    height: 22px;
+    width: 22px;
+    margin-left: 8px;
+  }
+  
+  .categoria1 {
+    font-size: 16px;
+    margin: 30px auto -30px 20px;
+  }
+  
+  .produto-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 5px;
+  }
+  
+  .produto-card {
+    max-width: 160px;
+  }
+  
+  .produto-card img {
+    width: 100%;
+    height: 160px;
+  }
+  
+  .produto-card .nome {
+    font-size: 16px;
+  }
+  
+  .produto-card .descricao {
+    font-size: 12px;
+  }
+  
+  .produto-card .preco {
+    font-size: 18px;
+  }
+
+  .preco-original {
+    font-size: 12px;
+  }
+
+  .botoes-mobile {
+    margin-bottom: 40px;
+    gap: 54px;
+  }
+
+  .botoes-mobile a ion-icon {
+    height: 32px;
+  }
+}
