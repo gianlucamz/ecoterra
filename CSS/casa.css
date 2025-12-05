@@ -965,4 +965,8 @@ body {
 
 .cat option {
   font-weight: 500 !important;
+  border-radius: 10px !important;
+  border: none;
+  
 }
+
