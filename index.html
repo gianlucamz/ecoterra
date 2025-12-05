@@ -15,8 +15,9 @@
     nomodule
     src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
   ></script>
-
+  
   <body>
+   
     <header class="header">
       <div class="header1">
         <div class="img">
@@ -43,6 +44,30 @@
           <a href="sobrenos.html" target="_self"> Sobre nós </a>
         </li>
       </ul>
+      <ul class="navbar_Links" id="mobile">
+        <li>
+          <a href="index.html" target="_self"> Início </a>
+        </li>
+        <li>
+          <a href="index.html" target="_self"> Produtos </a>
+        </li>
+        <li>
+          <a href="contato.html" target="_self"> Contato </a>
+        </li>
+        <li>
+          <a href="sobrenos.html" target="_self"> Sobre nós </a>
+        </li>
+        <select class="cat" onchange="location = this.value;">
+          <option value="1" selected>Categorias</option>
+          <option value="higiene.html">Higiene Pessoal</option>
+          <option value="cozinha.html">Cozinha</option>
+          <option value="casa.html">Casa</option>
+          <option value="moda.html">Moda</option>
+          <option value="escritorio.html">Higiene Pessoal</option>
+          <option value="pets.html">Pets</option>
+        </select>
+      </ul>
+      
       <div class="login">
         <a href="login.html" target="_self">
           Entrar
@@ -59,11 +84,10 @@
           <ion-icon name="notifications-outline"></ion-icon>
         </a>
       </div>
-      <div class="menu">
-        <a href="#">
-          <ion-icon name="menu-outline"></ion-icon>
-        </a>
-      </div>
+      <button class="menu" aria-label="mobile">
+        <ion-icon name="menu-outline"></ion-icon>
+
+    </button>
     </header>
     <section class="categorias">
       <div class="higiene">
@@ -721,5 +745,6 @@
         </a>
       </section>
     </footer>
+    <script src="JS/script.js"></script>  
   </body>
 </html>
